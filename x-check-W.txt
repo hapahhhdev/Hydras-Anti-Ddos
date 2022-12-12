@@ -1,0 +1,23 @@
+- For Windows -
+
+@echo off
+setlocal
+set PATHTOFIXES==%SYSTEMDRIVE%\hotfix
+echo ---
+echo Installation du pack de correctif post-SP1
+echo ---
+echo Debut de l'installation des correctifs... Veuillez patienter !
+
+echo
+echo mises a jour importantes
+echo ---
+%PATHTOFIXES%\Windows6.1-KB2479943-x64.msu /Z /Q
+%PATHTOFIXES%\Windows6.1-KB2491683-x64.msu /Z /Q
+%PATHTOFIXES%\Windows6.1-KB2506212-x64.msu /Z /Q
+
+
+echo ---
+echo Installation complete. Vous pouvez maintenant redemarrer votre ordinateur.
+echo Installation du pack de correctifs post-SP1
+echo ---
+pause

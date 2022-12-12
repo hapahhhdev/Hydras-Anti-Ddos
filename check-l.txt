@@ -1,0 +1,4 @@
+- For Linux -
+
+ sudo apt install unattended-upgrades
+ sudo apt full-upgrades
